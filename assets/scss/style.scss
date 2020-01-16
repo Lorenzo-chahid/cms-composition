@@ -1,0 +1,90 @@
+/*
+Theme Name: cms_wordpress
+Theme URI: https://capitainewp.io
+Author: Valerya, Christophe, Issam, Lorenzo
+Author URI: https://dysign.fr
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+
+/************* HEADER **********/
+*{
+    margin:0;
+    padding: 0;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    background: red;
+}
+
+.admin-bar .menu {
+	top: 32px;
+}
+
+header{
+    z-index: 200;
+    position: relative;
+}
+
+#header_nav{
+   
+    
+    background: #000;
+    height: 200px;
+}
+li{
+ 
+    
+    list-style: none;
+  
+    
+}
+
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav > ul >li {
+   
+    font-weight: bold;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+nav > ul > li:hover{
+    color:white;
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a > img{
+    position: absolute;
+    z-index: 900;
+}
+
+
+
+/****** CENTRE *******/
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 4 / 3; }
+
+    *{
+        color:blue;
+    }
