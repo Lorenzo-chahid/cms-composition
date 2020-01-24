@@ -41,7 +41,7 @@
             <div class="col-5">
                 <img class="image3" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-3.jpg" alt="">
             </div>
-            <div class="col-7">
+            <div class="textBlock col-7">
                 <h2>Nghi & Stephan</h2>
                 <p>Architecte d'intérieur, lui designer. Elle associe, il compose, elle colore, il meuble, elle illumine, il décore. Depuis tant d'années qu'ils travaillent ensemble. Nghi et Stéphan savent comment rendre réels les besoins et les envies des clients.</p>
                 <p>Chaque projet d'architecture d'intérieur commence par une écoute et une visite qui servent à dessiner les contours d'un cahier des charges et qui déjà servent d'inspiration.</p>
@@ -57,15 +57,16 @@
         </div>
         <img class="image2" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-2.jpg" alt="">
         <div class="row">
-            <div class="col-12">
+            <div class="textBlock2 col-12">
                 <h2>Tissus et artisanat</h2>
                 <p>Habillage de meubles et de fenetres</p>
             </div>
-            <div class="col-6">
+            <div class="col-3"></div>
+            <div class="col-4">
                 <p>Ajoutez un brien de tissus dans vos intérieurs et changez toute une ambiance : l'esthétique, la mise en valeur de mobilier ou d'éléments d'architecture, la réverbération du son, de la lumière, etc.</p>
                 <p>Nous avons un choix formidable de tissus à vous présenter et à assortir entre eux : Diaz, etc.</p>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <p>Travail selon les méthodes artisanales :</p>
                 <ul>
                     <li>Regarnissage et rhabillage de toutes pièces de mobilier, meme neuves.</li>
@@ -78,14 +79,14 @@
         </div>
         <img class="image4" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-4.jpg" alt="">
         <div class="row">
-            <div class="col-4">
+            <div class="imgfooter col-4">
                 <img class="image5" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-5.jpg" alt="">
             </div>
             <div class="col-4">
                 <p>Cum socils natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <p>Tissus et habillage maison</p>
+                <p><strong>Tissus et habillage maison </strong><img src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/fleche-droite.svg"></p>
             </div>
-            <div id="black" class="col-4">
+            <div id="black2" class="col-3">
                 <p>Horaires</p>
                 <p> Lundi > dimanche : (Fermé le mardi)</p>
                 <p>10h > 18h30</p>
