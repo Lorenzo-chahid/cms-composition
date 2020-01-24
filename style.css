@@ -1,9 +1,240 @@
 /*
-Theme Name: cms_wordpress
-Theme URI: https://capitainewp.io
-Author: Valerya, Christophe, Issam, Lorenzo
-Author URI: https://dysign.fr
-Description: Mon premier thème !
-Requires at least: WordPress 5.0
+Theme Name: Themes-architecture
+Description: nouveau themes
+Theme URI: https://wordpress.org/themes/theme-architecture/
+Author: Issam
+Author URI: https://wordpress.org/
 Version: 1.0
 */
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: black; */
+}
+
+h1 {
+    color:white;
+    font-size:26px;
+    font-family:georgia;
+    margin-bottom: 25%;
+    padding-top: 5%;
+}
+h1:before{
+    content:'';
+    width:5em;
+    border-bottom:rgba(255,255,255,0.2) solid 1px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 40px;
+}
+
+.contenu{
+    background-color: white;
+    padding-top: 30%;
+}
+
+.image{
+    width: 60%;
+    height: 60%;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    margin-left: 13vw;
+}
+
+.sectionLeft{
+    align-content: center;
+    text-align: left;
+    padding-inline-start: 15%;
+    padding-inline-end: 15%;
+}
+
+.sectionRight{
+
+}
+
+.image2{
+    width: 60%;
+    height: 50%;
+}
+
+.image3{
+    width: 6%;
+    height: 10vh;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    margin-left: 13vw;
+}
+
+.image4{
+    width: 100%;
+    height: 100%;
+}
+
+.image5{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#black{
+    background-color: black !important;
+    color: white;
+}
+
+.jumbotron{
+    width: 104%;
+    height: 70vh;
+    margin-left: -17px;
+    margin-right: 90px;
+}
+
+    /* Footer */
+
+.accueil-footer .footer-1 p {
+    font-size: 11px;
+}
+
+.accueil-footer .footer-1 p img {
+    margin-left: 1%;
+    height: 7px;
+}
+
+.accueil-footer .footer-2 {
+    font-size: 12px;
+}
+
+.accueil-footer .footer-2 ul li p {
+    margin-bottom: 5px !important;
+    font-weight: normal;
+}
+
+.accueil-footer .footer-2 ul li p a {
+    color: black;
+}
+
+.accueil-footer .footer-2 ul li p img {
+    margin-right: 5%;
+    height: 12px;
+}
+
+.accueil-footer .footer-3 .liste-social li p {
+    margin-left: 45%;
+}
+
+.accueil-footer .footer-3 .liste-social li .copyright {
+    font-size: 10px;
+}
+
+.accueil-footer .facebook {
+    margin: 1%;
+}
+
+.accueil-footer .facebook img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.accueil-footer .instagram {
+    margin: 1%;
+}
+
+.accueil-footer .instagram img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.accueil-footer .pinterest {
+    margin: 1%;
+}
+
+.accueil-footer .pinterest img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.page-footer .footer-1 p {
+    font-size: 11px;
+}
+
+.page-footer .footer-1 p img {
+    margin-left: 1%;
+    height: 7px;
+}
+
+.page-footer .footer-2 {
+    font-size: 12px;
+}
+
+.page-footer .footer-2 ul li p {
+    margin-bottom: 5px !important;
+    font-weight: normal;
+}
+
+.page-footer .footer-2 ul li p a {
+    color: black;
+}
+
+.page-footer .footer-2 ul li p img {
+    margin-right: 5%;
+    height: 12px;
+}
+
+.page-footer .footer-3 .liste-social li p {
+    margin-left: 45%;
+}
+
+.page-footer .footer-3 .liste-social li .copyright {
+    font-size: 10px;
+}
+
+.page-footer .facebook {
+    margin: 1%;
+}
+
+.page-footer .facebook img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.page-footer .instagram {
+    margin: 1%;
+}
+
+.page-footer .instagram img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.page-footer .pinterest {
+    margin: 1%;
+}
+
+.page-footer .pinterest img {
+    padding: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
