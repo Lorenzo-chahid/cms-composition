@@ -14,39 +14,178 @@
 </head>
 <body>
     <h1>Prendre soin de votre schéma de vie.</h1>
-    <img class="image" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image.jpg">
+    
     <div class="contenu col-12">
         <div class="row">
             <div class="sectionLeft col-5">
-                <h2>150 € l'étude d'archi</h2>
-                <p><strong>Plutot une bonne affaire, non ?</strong></p>
-                <p>Of   frez-vous une étude complète d'architecte d'intérieur dès lors que vous etes intéressés par du mobilier de notre magasin.</p>
+                <h2>Contact</h2>
+                <p>Route de Hamoir, 87 - 4500 Huy</p>
+                <p>info@meublescomposition.be</p>
 
-                <p><strong>Pour 150 € au lieu de 1100 €, vous recevrez un projet de réamenagement complet d'une pièce ou de l'ensemble de votre maison.</strong></p>
+                <p>+32 (0)85 21 52 38</p>
             </div>
             <div id = "black"class="sectionRight col-7">
-                <p>Nous vous aidons à définir une ambiance et à décrire l'espace:
+                <p><strong>
+                    Horaires
+                </strong>
                 </p>
-                <ul>
-                    <li>Schémas de circulation</li>
-                    <li>Habillage des fenetres</li>
-                    <li>Habillage des murs</li>
-                    <li>Choix des meubles</li>
-                    <li>Conseil en couleurs (peintures, tapisserie,etc.)</li>
-                    <li>Réintégration de vieux mobilier</li>
-                </ul>
+
+                <div id="horaire">
+                    <p>Lundi > dimanche :</p>
+                    <p>(Fermé le mardi)</p>
+                    <p>10h > 18h30</p>
+                </div>
+                <div>
+                    <p>
+                        <p>
+                            Une question,
+                        </p>
+                        <p>
+                            une demande d'offre ?
+                        </p>
+                    </p>
+                </div>
+                <div>
+                <h6>
+                    Formulaire de contact
+                </h6>
+                </div>
             </div>
+
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+    <div class="container-fluid" id="formulaire">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+    <form>
+
+
+
+
+<div class="col-sm-12">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+    <div class="container-fluid" id="formulaire">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+    <form>
+    <div class="form-group">
+Nom *<p></p> <input type="text" name="name" value="<?php echo $name;?>" class="form-control">
+  <span class="error"><p></p> <?php echo $nameErr;?></span>
+</div>  
+  
+  <p><p>
+
+  <div class="form-group">
+  Prénom:<p></p> <input type="text" name="firstname" value="<?php echo $firstname;?>" class="form-control">
+  <span class="error"> <p></p><?php echo $firstnameErr;?></span>
+  </div>
+
+  
+  <p><p>
+  <div class="form-group">
+  E-mail:<p></p> <input type="text" name="email" value="<?php echo $email;?>" class="form-control">
+  <span class="error"><p></p> <?php echo $emailErr;?></span>
+  </div>
+  
+
+
+  <p><p>
+  <div class="form-group">
+  Tél *<p></p> <input type="text" name="country" value="<?php echo $country;?>" class="form-control"><p></p>
+  <span class="error"> <?php echo $countryErr;?></span>
+  </div>
+  
+  
+
+  <p><p>
+  
+  <p><p>
+  <div class="form-group">
+  Code postal<p></p> <input type="text" name="country" value="<?php echo $country;?>" class="form-control"><p></p>
+  <span class="error"> <?php echo $countryErr;?></span>
+  </div>
+  
+  
+
+  <p><p>
+  <div class="form-group">
+  Votre message *<p></p> <textarea name="comment" rows="5"  class="form-control"><?php echo $comment;?></textarea>
+  <p><p>
+  
+  </div>
+  
+  
+  <span class="error"> <?php echo $genderErr;?></span>
+  <p><p>
+  <div class="form-group">
+  </div>
+  <input type="submit" id=envoyer class="form-control" name="submit" value="Envoyer">
+</form>
+</form>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+</form>
+</div>
+
+
+
         </div>
         <div class="row">
-            <div class="col-5">
-                <img class="image3" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-3.jpg" alt="">
+            <div >
+                <img class="image3" src="localhost/wordpress-5.3.2/premierWordpress/wp-content/themes/cms/img/2600x700_01.jpg" alt="lit">
             </div>
             <div class="col-7">
-                <h2>Nghi & Stephan</h2>
-                <p>Architecte d'intérieur, lui designer. Elle associe, il compose, elle colore, il meuble, elle illumine, il décore. Depuis tant d'années qu'ils travaillent ensemble. Nghi et Stéphan savent comment rendre réels les besoins et les envies des clients.</p>
-                <p>Chaque projet d'architecture d'intérieur commence par une écoute et une visite qui servent à dessiner les contours d'un cahier des charges et qui déjà servent d'inspiration.</p>
-                <p>Les proposition de tissus et d'ameublement qui sont ensuite présentées aux clients ajoutent élégance et originalité tout en respectant leur première intuition.</p>
-                <p>Il y a trois réponses possibles au design : oui, non et wow. Nous travaillons toujours pour cette dernière.</p>
+                <div>
+                    <h2>
+                        <strong>
+                            10% sur vos prochains achats ?
+                        </strong>
+                    </h2>
+                </div>
+                <div>
+                    Ma wishlist
+                </div>
+
+                <div>
+                    <h2>
+                        <strong>
+                            Rendez-nous visite ! 
+                        </strong>
+                    </h2>
+                </div>
+
+                <div>
+                    <h6>
+                        <strong>
+                            Google map 
+                        </strong>
+                    </h6>
+                </div>
+
+                <div>
+                    <h6>
+                        <strong>
+                            Horaires 
+                        </strong>
+                    </h6>
+                </div>
+
+                <div>
+                    <p>Lundi > dimanche :</p>
+                    <p>(Fermé le mardi)</p>
+                    <p>10h > 18h30</p>
+                </div>
+
+                
             </div>
         </div> 
         <div class="row">
@@ -55,35 +194,26 @@
                 <div class="jumbotron"></div>
             </div>
         </div>
-        <img class="image2" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-2.jpg" alt="">
+        
         <div class="row">
             <div class="col-12">
-                <h2>Tissus et artisanat</h2>
-                <p>Habillage de meubles et de fenetres</p>
+                
             </div>
             <div class="col-6">
-                <p>Ajoutez un brien de tissus dans vos intérieurs et changez toute une ambiance : l'esthétique, la mise en valeur de mobilier ou d'éléments d'architecture, la réverbération du son, de la lumière, etc.</p>
-                <p>Nous avons un choix formidable de tissus à vous présenter et à assortir entre eux : Diaz, etc.</p>
+                
             </div>
             <div class="col-6">
-                <p>Travail selon les méthodes artisanales :</p>
-                <ul>
-                    <li>Regarnissage et rhabillage de toutes pièces de mobilier, meme neuves.</li>
-                    <li>Confection de tentures, de stores et de rideaux.</li>
-                    <li>Tapisseries murales</li>
-                    <li>Canapés personnalisés</li>
-                    <li>Tapis</li>
-                </ul>
+                
+                
             </div>
         </div>
-        <img class="image4" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-4.jpg" alt="">
+        
         <div class="row">
             <div class="col-4">
-                <img class="image5" src="http://127.0.0.1/wordpress-5.3.2-fr_FR/wordpress/wp-content/themes/theme-architecture/img/archi-image-5.jpg" alt="">
+                
             </div>
             <div class="col-4">
-                <p>Cum socils natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <p>Tissus et habillage maison</p>
+                
             </div>
             <div id="black" class="col-4">
                 <p>Horaires</p>
