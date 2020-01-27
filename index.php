@@ -15,8 +15,8 @@
 <body>
     <h1>Prendre soin de votre schéma de vie.</h1>
     
-    <div class="contenu col-12">
-        <div class="row">
+    <div class="contenu col-12" >
+        <div class="row" id="black">
             <div class="sectionLeft col-5">
                 <h2>Contact</h2>
                 <p>Route de Hamoir, 87 - 4500 Huy</p>
@@ -24,13 +24,14 @@
 
                 <p>+32 (0)85 21 52 38</p>
             </div>
-            <div id = "black"class="sectionRight col-7">
+            <div id = "black"class="sectionRight col-sm-12">
                 <p><strong>
                     Horaires
                 </strong>
                 </p>
-
-                <div id="horaire">
+        </div>
+        <div class="row">
+        <div id="horaire ">
                     <p>Lundi > dimanche :</p>
                     <p>(Fermé le mardi)</p>
                     <p>10h > 18h30</p>
@@ -45,13 +46,87 @@
                         </p>
                     </p>
                 </div>
-                <div>
+        </div>
+
+                
+            </div>
+
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+    if (empty($_POST["name"])) {
+      $nameErr = "nom requis";
+    } else {
+      $name = cleanLesInputs($_POST["name"]);
+     
+      if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+        $nameErr = "veuillez mettre seulement des lettres";
+      }
+    }
+  
+    if (empty($_POST["firstname"])) {
+      $firstnameErr = "prénom requis";
+    } else {
+      $firstname = cleanLesInputs($_POST["firstname"]);
+      
+      if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+        $firstnameErr = "veuillez mettre seulement des lettres";
+      }
+    }
+    
+    if (empty($_POST["email"])) {
+      $emailErr = "email requis";
+    } else {
+      $email = cleanLesInputs($_POST["email"]);
+     
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $emailErr = "email invalide";
+      }
+    }
+    
+    if (empty($_POST["country"])) {
+      $countryErr = "code postal";
+    } else {
+      $country = cleanLesInputs($_POST["country"]);
+    }
+    
+  
+    if (empty($_POST["comment"])) {
+      $comment = "";
+    } else {
+      $comment = cleanLesInputs($_POST["comment"]);
+    }
+    
+    
+    
+    
+    if (($nameErr == "") and ($firstnameErr == "") or ($email == "") and ($countryErr == "") and (isset($_POST['submit'])) )
+    {
+      $to = $email;
+      $subject = "vos infos";
+      $message = "Vos informations" ."\n";
+      $message .= "votre nom :" . $name . "\n";
+      $message .= "votre prénom :" . $firstname . "\n";
+      $message .= "votre message :" . $comment . "\n";
+  
+      mail($email, 'vos infos', $message, $headers);
+    }
+  }
+  
+  function cleanLesInputs($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+  }
+?>
+
+            <div>
                 <h6>
                     Formulaire de contact
                 </h6>
                 </div>
-            </div>
-
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 <div class="container-fluid">
   <div class="row">
@@ -96,8 +171,8 @@ Nom *<p></p> <input type="text" name="name" value="<?php echo $name;?>" class="f
 
   <p><p>
   <div class="form-group">
-  Tél *<p></p> <input type="text" name="country" value="<?php echo $country;?>" class="form-control"><p></p>
-  <span class="error"> <?php echo $countryErr;?></span>
+  Tél *<p></p> <input type="text" name="tel" value="<?php echo $tel;?>" class="form-control"><p></p>
+  <span class="error"> <?php echo $telErr;?></span>
   </div>
   
   
@@ -114,13 +189,13 @@ Nom *<p></p> <input type="text" name="name" value="<?php echo $name;?>" class="f
 
   <p><p>
   <div class="form-group">
-  Votre message *<p></p> <textarea name="comment" rows="5"  class="form-control"><?php echo $comment;?></textarea>
+  Votre message *<p></p> <input type="text" name="comment" value="<?php echo $comment;?>"<?php echo $comment;?>
   <p><p>
   
   </div>
   
   
-  <span class="error"> <?php echo $genderErr;?></span>
+  
   <p><p>
   <div class="form-group">
   </div>
@@ -141,9 +216,9 @@ Nom *<p></p> <input type="text" name="name" value="<?php echo $name;?>" class="f
         </div>
         <div class="row">
             <div >
-                <img class="image3" src="localhost/wordpress-5.3.2/premierWordpress/wp-content/themes/cms/img/2600x700_01.jpg" alt="lit">
+                <img class="image3" src="http://localhost/wordpress-5.3.2/premierWordpress/index.php/contact//wp-content/themes/cms/img/2600x700_01.jpg" alt="lit">
             </div>
-            <div class="col-7">
+            <div >
                 <div>
                     <h2>
                         <strong>
@@ -170,52 +245,17 @@ Nom *<p></p> <input type="text" name="name" value="<?php echo $name;?>" class="f
                         </strong>
                     </h6>
                 </div>
+<div class="row">
+    
 
-                <div>
-                    <h6>
-                        <strong>
-                            Horaires 
-                        </strong>
-                    </h6>
-                </div>
-
-                <div>
-                    <p>Lundi > dimanche :</p>
-                    <p>(Fermé le mardi)</p>
-                    <p>10h > 18h30</p>
-                </div>
-
-                
-            </div>
-        </div> 
+    
+</div>
         <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7">
-                <div class="jumbotron"></div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-12">
+            
+            <div >
                 
             </div>
-            <div class="col-6">
-                
-            </div>
-            <div class="col-6">
-                
-                
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-4">
-                
-            </div>
-            <div class="col-4">
-                
-            </div>
-            <div id="black" class="col-4">
+            <div id="black" class="col-sm-12">
                 <p>Horaires</p>
                 <p> Lundi > dimanche : (Fermé le mardi)</p>
                 <p>10h > 18h30</p>
