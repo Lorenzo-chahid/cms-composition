@@ -3028,7 +3028,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2829,	142,	'_elementor_controls_usage',	'a:0:{}'),
 (2842,	140,	'_edit_lock',	'1579880768:1'),
 (2843,	155,	'inline_featured_image',	'0'),
-(2844,	155,	'_edit_lock',	'1579880768:1'),
+(2844,	155,	'_edit_lock',	'1580116030:1'),
 (2845,	156,	'_wp_attached_file',	'2020/01/1850x1200_03.jpg'),
 (2846,	156,	'_wp_attachment_metadata',	'a:5:{s:5:\"width\";i:1850;s:6:\"height\";i:1200;s:4:\"file\";s:24:\"2020/01/1850x1200_03.jpg\";s:5:\"sizes\";a:5:{s:6:\"medium\";a:4:{s:4:\"file\";s:24:\"1850x1200_03-300x195.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:195;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:25:\"1850x1200_03-1024x664.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:664;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:24:\"1850x1200_03-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:24:\"1850x1200_03-768x498.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:498;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"1536x1536\";a:4:{s:4:\"file\";s:25:\"1850x1200_03-1536x996.jpg\";s:5:\"width\";i:1536;s:6:\"height\";i:996;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (2847,	157,	'_wp_attached_file',	'2020/01/1350x750_02.jpg'),
@@ -3123,15 +3123,6 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2942,	161,	'_title_link_autresarticles',	'field_5e2ab7d900602'),
 (2943,	161,	'icon',	'158'),
 (2944,	161,	'_icon',	'field_5e2ab7f800603'),
-(2945,	162,	'_menu_item_type',	'post_type'),
-(2946,	162,	'_menu_item_menu_item_parent',	'0'),
-(2947,	162,	'_menu_item_object_id',	'137'),
-(2948,	162,	'_menu_item_object',	'page'),
-(2949,	162,	'_menu_item_target',	''),
-(2950,	162,	'_menu_item_classes',	'a:1:{i:0;s:8:\"nav-link\";}'),
-(2951,	162,	'_menu_item_xfn',	''),
-(2952,	162,	'_menu_item_url',	''),
-(2954,	162,	'_elementor_controls_usage',	'a:0:{}'),
 (2989,	164,	'_elementor_controls_usage',	'a:0:{}'),
 (2990,	165,	'_elementor_controls_usage',	'a:0:{}'),
 (2991,	156,	'_wp_attachment_image_alt',	'Chairs'),
@@ -3390,8 +3381,6 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (3254,	184,	'_wp_attached_file',	'2020/01/mail.svg'),
 (3255,	184,	'_wp_attachment_metadata',	'a:4:{s:5:\"width\";i:0;s:6:\"height\";i:0;s:4:\"file\";s:17:\"/2020/01/mail.svg\";s:5:\"sizes\";a:6:{s:9:\"thumbnail\";a:5:{s:5:\"width\";s:3:\"150\";s:6:\"height\";s:3:\"150\";s:4:\"crop\";s:1:\"1\";s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}s:6:\"medium\";a:5:{s:5:\"width\";s:3:\"300\";s:6:\"height\";s:3:\"300\";s:4:\"crop\";b:0;s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}s:12:\"medium_large\";a:5:{s:5:\"width\";s:3:\"768\";s:6:\"height\";s:1:\"0\";s:4:\"crop\";b:0;s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}s:5:\"large\";a:5:{s:5:\"width\";s:4:\"1024\";s:6:\"height\";s:4:\"1024\";s:4:\"crop\";b:0;s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}s:9:\"1536x1536\";a:5:{s:5:\"width\";b:0;s:6:\"height\";b:0;s:4:\"crop\";b:0;s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}s:9:\"2048x2048\";a:5:{s:5:\"width\";b:0;s:6:\"height\";b:0;s:4:\"crop\";b:0;s:4:\"file\";s:8:\"mail.svg\";s:9:\"mime-type\";s:13:\"image/svg+xml\";}}}'),
 (3256,	184,	'_elementor_inline_svg',	'<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\r\n<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n	 viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\">\r\n<g>\r\n	<g>\r\n		<polygon points=\"339.392,258.624 512,367.744 512,144.896 		\"/>\r\n	</g>\r\n</g>\r\n<g>\r\n	<g>\r\n		<polygon points=\"0,144.896 0,367.744 172.608,258.624 		\"/>\r\n	</g>\r\n</g>\r\n<g>\r\n	<g>\r\n		<path d=\"M480,80H32C16.032,80,3.36,91.904,0.96,107.232L256,275.264l255.04-168.032C508.64,91.904,495.968,80,480,80z\"/>\r\n	</g>\r\n</g>\r\n<g>\r\n	<g>\r\n		<path d=\"M310.08,277.952l-45.28,29.824c-2.688,1.76-5.728,2.624-8.8,2.624c-3.072,0-6.112-0.864-8.8-2.624l-45.28-29.856\r\n			L1.024,404.992C3.488,420.192,16.096,432,32,432h448c15.904,0,28.512-11.808,30.976-27.008L310.08,277.952z\"/>\r\n	</g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n</svg>\r\n'),
-(3257,	155,	'_pingme',	'1'),
-(3258,	155,	'_encloseme',	'1'),
 (3259,	155,	'media_facebook',	'182'),
 (3260,	155,	'_media_facebook',	'field_5e2aff1ecde3e'),
 (3261,	155,	'media_linkedin',	'183'),
@@ -3453,7 +3442,18 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (3317,	185,	'media_e-mail',	'184'),
 (3318,	185,	'_media_e-mail',	'field_5e2aff48cde40'),
 (3319,	185,	'media',	''),
-(3320,	185,	'_media',	'field_5e2afef5cde3d');
+(3320,	185,	'_media',	'field_5e2afef5cde3d'),
+(3321,	155,	'_pingme',	'1'),
+(3322,	155,	'_encloseme',	'1'),
+(3323,	186,	'_menu_item_type',	'custom'),
+(3324,	186,	'_menu_item_menu_item_parent',	'0'),
+(3325,	186,	'_menu_item_object_id',	'186'),
+(3326,	186,	'_menu_item_object',	'custom'),
+(3327,	186,	'_menu_item_target',	''),
+(3328,	186,	'_menu_item_classes',	'a:1:{i:0;s:8:\"nav-link\";}'),
+(3329,	186,	'_menu_item_xfn',	''),
+(3330,	186,	'_menu_item_url',	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/blog-single/'),
+(3332,	186,	'_elementor_controls_usage',	'a:0:{}');
 
 DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE `wp_posts` (
@@ -3590,13 +3590,13 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (116,	1,	'2020-01-22 08:30:14',	'0000-00-00 00:00:00',	'',	'Auto Draft',	'',	'auto-draft',	'closed',	'closed',	'',	'',	'',	'',	'2020-01-22 08:30:14',	'0000-00-00 00:00:00',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field-group&p=116',	0,	'acf-field-group',	'',	0),
 (117,	1,	'2020-01-22 08:37:46',	'0000-00-00 00:00:00',	'',	'Auto Draft',	'',	'auto-draft',	'closed',	'closed',	'',	'',	'',	'',	'2020-01-22 08:37:46',	'0000-00-00 00:00:00',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field-group&p=117',	0,	'acf-field-group',	'',	0),
 (118,	1,	'2020-01-22 08:38:56',	'0000-00-00 00:00:00',	'',	'Auto Draft',	'',	'auto-draft',	'closed',	'closed',	'',	'',	'',	'',	'2020-01-22 08:38:56',	'0000-00-00 00:00:00',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field-group&p=118',	0,	'acf-field-group',	'',	0),
-(119,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'MAGASIN',	'',	'publish',	'closed',	'closed',	'',	'magasin',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=119',	2,	'nav_menu_item',	'',	0),
-(120,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'ARCHITECTE D\'INTERIEUR',	'',	'publish',	'closed',	'closed',	'',	'architecte-dinterieur',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=120',	3,	'nav_menu_item',	'',	0),
-(121,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'A PROPOS',	'',	'publish',	'closed',	'closed',	'',	'a-propos',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=121',	4,	'nav_menu_item',	'',	0),
-(123,	1,	'2020-01-22 09:40:40',	'2020-01-22 09:40:40',	'',	'CONTACT',	'',	'publish',	'closed',	'closed',	'',	'contact',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=123',	6,	'nav_menu_item',	'',	0),
-(124,	1,	'2020-01-22 09:40:40',	'2020-01-22 09:40:40',	'',	'Wishlist',	'',	'publish',	'closed',	'closed',	'',	'wishlist',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=124',	7,	'nav_menu_item',	'',	0),
+(119,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'MAGASIN',	'',	'publish',	'closed',	'closed',	'',	'magasin',	'',	'',	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=119',	2,	'nav_menu_item',	'',	0),
+(120,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'ARCHITECTE D\'INTERIEUR',	'',	'publish',	'closed',	'closed',	'',	'architecte-dinterieur',	'',	'',	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=120',	3,	'nav_menu_item',	'',	0),
+(121,	1,	'2020-01-22 09:40:39',	'2020-01-22 09:40:39',	'',	'A PROPOS',	'',	'publish',	'closed',	'closed',	'',	'a-propos',	'',	'',	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=121',	4,	'nav_menu_item',	'',	0),
+(123,	1,	'2020-01-22 09:40:40',	'2020-01-22 09:40:40',	'',	'CONTACT',	'',	'publish',	'closed',	'closed',	'',	'contact',	'',	'',	'2020-01-27 09:08:48',	'2020-01-27 09:08:48',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=123',	6,	'nav_menu_item',	'',	0),
+(124,	1,	'2020-01-22 09:40:40',	'2020-01-22 09:40:40',	'',	'Wishlist',	'',	'publish',	'closed',	'closed',	'',	'wishlist',	'',	'',	'2020-01-27 09:08:48',	'2020-01-27 09:08:48',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=124',	7,	'nav_menu_item',	'',	0),
 (125,	1,	'2020-01-22 11:07:46',	'2020-01-22 11:07:46',	'',	'home-minimal',	'',	'inherit',	'open',	'closed',	'',	'home-minimal',	'',	'',	'2020-01-22 11:07:46',	'2020-01-22 11:07:46',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/home-minimal.svg',	0,	'attachment',	'image/svg+xml',	0),
-(126,	1,	'2020-01-22 12:49:57',	'2020-01-22 12:49:57',	'',	'Home',	'',	'publish',	'closed',	'closed',	'',	'home',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=126',	1,	'nav_menu_item',	'',	0),
+(126,	1,	'2020-01-22 12:49:57',	'2020-01-22 12:49:57',	'',	'Home',	'',	'publish',	'closed',	'closed',	'',	'home',	'',	'',	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=126',	1,	'nav_menu_item',	'',	0),
 (127,	1,	'2020-01-22 13:19:50',	'2020-01-22 13:19:50',	'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:8:\"nav_menu\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"location/top\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}',	'header',	'header',	'publish',	'closed',	'closed',	'',	'group_5e284be2a3dd6',	'',	'',	'2020-01-22 13:21:08',	'2020-01-22 13:21:08',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field-group&#038;p=127',	0,	'acf-field-group',	'',	0),
 (128,	1,	'2020-01-22 13:19:50',	'2020-01-22 13:19:50',	'a:16:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:1;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:10:\"user_roles\";a:1:{i:0;s:3:\"all\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:6:\"medium\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}',	'logo',	'logo',	'publish',	'closed',	'closed',	'',	'field_5e284be8ec6ce',	'',	'',	'2020-01-22 13:19:50',	'2020-01-22 13:19:50',	'',	127,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field&p=128',	0,	'acf-field',	'',	0),
 (129,	1,	'2020-01-22 13:20:09',	'2020-01-22 13:20:09',	'',	'header',	'',	'trash',	'closed',	'closed',	'',	'header__trashed',	'',	'',	'2020-01-22 13:21:46',	'2020-01-22 13:21:46',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?page_id=129',	0,	'page',	'',	0),
@@ -3613,14 +3613,13 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (140,	1,	'2020-01-24 09:25:29',	'2020-01-24 09:25:29',	'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"post\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}',	'Blog_single',	'blog_single',	'publish',	'closed',	'closed',	'',	'group_5e2ab566298b9',	'',	'',	'2020-01-24 14:29:47',	'2020-01-24 14:29:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field-group&#038;p=140',	0,	'acf-field-group',	'',	0),
 (141,	1,	'2020-01-24 09:25:29',	'2020-01-24 09:25:29',	'a:8:{s:4:\"type\";s:5:\"group\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:10:\"user_roles\";a:1:{i:0;s:3:\"all\";}s:6:\"layout\";s:5:\"block\";s:10:\"sub_fields\";a:0:{}}',	'Blog_single',	'blog_single',	'publish',	'closed',	'closed',	'',	'field_5e2ab57e005f6',	'',	'',	'2020-01-24 09:25:29',	'2020-01-24 09:25:29',	'',	140,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field&p=141',	0,	'acf-field',	'',	0),
 (142,	1,	'2020-01-24 09:25:29',	'2020-01-24 09:25:29',	'a:7:{s:4:\"type\";s:4:\"link\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:1;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:10:\"user_roles\";a:1:{i:0;s:3:\"all\";}s:13:\"return_format\";s:5:\"array\";}',	'lien_retour',	'lien_retour',	'publish',	'closed',	'closed',	'',	'field_5e2ab5cd005f7',	'',	'',	'2020-01-24 11:22:39',	'2020-01-24 11:22:39',	'',	141,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field&#038;p=142',	0,	'acf-field',	'',	0),
-(155,	1,	'2020-01-24 09:32:35',	'2020-01-24 09:32:35',	'',	'Blog',	'',	'publish',	'open',	'open',	'',	'blog-single',	'',	'',	'2020-01-24 14:39:39',	'2020-01-24 14:39:39',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=155',	0,	'post',	'',	0),
+(155,	1,	'2020-01-24 09:32:35',	'2020-01-24 09:32:35',	'',	'Blog',	'',	'publish',	'open',	'open',	'',	'blog-single',	'',	'',	'2020-01-27 09:07:09',	'2020-01-27 09:07:09',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=155',	0,	'post',	'',	0),
 (156,	1,	'2020-01-24 09:28:22',	'2020-01-24 09:28:22',	'',	'1850x1200_03',	'',	'inherit',	'open',	'closed',	'',	'1850x1200_03',	'',	'',	'2020-01-24 10:59:50',	'2020-01-24 10:59:50',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/1850x1200_03.jpg',	0,	'attachment',	'image/jpeg',	0),
 (157,	1,	'2020-01-24 09:30:10',	'2020-01-24 09:30:10',	'',	'1350x750_02',	'',	'inherit',	'open',	'closed',	'',	'1350x750_02',	'',	'',	'2020-01-24 11:12:53',	'2020-01-24 11:12:53',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/1350x750_02.jpg',	0,	'attachment',	'image/jpeg',	0),
 (158,	1,	'2020-01-24 09:31:37',	'2020-01-24 09:31:37',	'',	'Group 1300',	'',	'inherit',	'open',	'closed',	'',	'group-1300-2',	'',	'',	'2020-01-24 09:31:37',	'2020-01-24 09:31:37',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/Group-1300-1.svg',	0,	'attachment',	'image/svg+xml',	0),
 (159,	1,	'2020-01-24 09:32:35',	'2020-01-24 09:32:35',	'',	'Blog_single',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 09:32:35',	'2020-01-24 09:32:35',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0),
 (160,	1,	'2020-01-24 09:32:36',	'2020-01-24 09:32:36',	'',	'Blog_single',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 09:32:36',	'2020-01-24 09:32:36',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0),
 (161,	1,	'2020-01-24 09:36:01',	'2020-01-24 09:36:01',	'',	'Blog',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 09:36:01',	'2020-01-24 09:36:01',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0),
-(162,	1,	'2020-01-24 09:37:38',	'2020-01-24 09:37:38',	'',	'BLOG',	'',	'publish',	'closed',	'closed',	'',	'162',	'',	'',	'2020-01-24 09:54:41',	'2020-01-24 09:54:41',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=162',	5,	'nav_menu_item',	'',	0),
 (164,	1,	'2020-01-24 10:58:07',	'2020-01-24 10:58:07',	'a:11:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:1;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:10:\"user_roles\";a:1:{i:0;s:3:\"all\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}',	'Title_blog',	'title_blog',	'publish',	'closed',	'closed',	'',	'field_5e2acd714f1d0',	'',	'',	'2020-01-24 11:22:39',	'2020-01-24 11:22:39',	'',	141,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field&#038;p=164',	1,	'acf-field',	'',	0),
 (165,	1,	'2020-01-24 10:58:07',	'2020-01-24 10:58:07',	'a:16:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:10:\"user_roles\";a:1:{i:0;s:3:\"all\";}s:13:\"return_format\";s:5:\"array\";s:12:\"preview_size\";s:6:\"medium\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}',	'img top',	'img_top',	'publish',	'closed',	'closed',	'',	'field_5e2acd8a4f1d1',	'',	'',	'2020-01-24 11:22:39',	'2020-01-24 11:22:39',	'',	141,	'http://127.0.0.1/premierWordpress/wordpress/?post_type=acf-field&#038;p=165',	2,	'acf-field',	'',	0),
 (166,	1,	'2020-01-24 10:59:58',	'2020-01-24 10:59:58',	'',	'Blog',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 10:59:58',	'2020-01-24 10:59:58',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0),
@@ -3642,7 +3641,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (182,	1,	'2020-01-24 14:30:18',	'2020-01-24 14:30:18',	'',	'logo-facebook',	'',	'inherit',	'open',	'closed',	'',	'logo-facebook',	'',	'',	'2020-01-24 14:30:18',	'2020-01-24 14:30:18',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/logo-facebook.svg',	0,	'attachment',	'image/svg+xml',	0),
 (183,	1,	'2020-01-24 14:39:18',	'2020-01-24 14:39:18',	'',	'twitter',	'',	'inherit',	'open',	'closed',	'',	'twitter',	'',	'',	'2020-01-24 14:39:18',	'2020-01-24 14:39:18',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/twitter.svg',	0,	'attachment',	'image/svg+xml',	0),
 (184,	1,	'2020-01-24 14:39:33',	'2020-01-24 14:39:33',	'',	'mail',	'',	'inherit',	'open',	'closed',	'',	'mail',	'',	'',	'2020-01-24 14:39:33',	'2020-01-24 14:39:33',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/wp-content/uploads/2020/01/mail.svg',	0,	'attachment',	'image/svg+xml',	0),
-(185,	1,	'2020-01-24 14:39:39',	'2020-01-24 14:39:39',	'',	'Blog',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 14:39:39',	'2020-01-24 14:39:39',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0);
+(185,	1,	'2020-01-24 14:39:39',	'2020-01-24 14:39:39',	'',	'Blog',	'',	'inherit',	'closed',	'closed',	'',	'155-revision-v1',	'',	'',	'2020-01-24 14:39:39',	'2020-01-24 14:39:39',	'',	155,	'http://127.0.0.1/premierWordpress/wordpress/index.php/2020/01/24/155-revision-v1/',	0,	'revision',	'',	0),
+(186,	1,	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	'BLOG',	'',	'publish',	'closed',	'closed',	'',	'blog',	'',	'',	'2020-01-27 09:08:47',	'2020-01-27 09:08:47',	'',	0,	'http://127.0.0.1/premierWordpress/wordpress/?p=186',	5,	'nav_menu_item',	'',	0);
 
 DROP TABLE IF EXISTS `wp_termmeta`;
 CREATE TABLE `wp_termmeta` (
@@ -3695,7 +3695,7 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (124,	2,	0),
 (126,	2,	0),
 (155,	1,	0),
-(162,	2,	0);
+(186,	2,	0);
 
 DROP TABLE IF EXISTS `wp_term_taxonomy`;
 CREATE TABLE `wp_term_taxonomy` (
@@ -3742,7 +3742,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13,	1,	'wp_user_level',	'10'),
 (14,	1,	'dismissed_wp_pointers',	'theme_editor_notice'),
 (15,	1,	'show_welcome_panel',	'1'),
-(16,	1,	'session_tokens',	'a:1:{s:64:\"8e06d95ebd4e1c8ba0edd7ecc04d82f6a1cc0d158ac915b9404f78cb1fe9ad22\";a:4:{s:10:\"expiration\";i:1580286564;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:105:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\";s:5:\"login\";i:1580113764;}}'),
+(16,	1,	'session_tokens',	'a:3:{s:64:\"8e06d95ebd4e1c8ba0edd7ecc04d82f6a1cc0d158ac915b9404f78cb1fe9ad22\";a:4:{s:10:\"expiration\";i:1580286564;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:105:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\";s:5:\"login\";i:1580113764;}s:64:\"4b5887bc626871f94322f8fea8a28bac5dae683a1f3a6edb75b184d3d407dd7c\";a:4:{s:10:\"expiration\";i:1580287378;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:105:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\";s:5:\"login\";i:1580114578;}s:64:\"d69660e50937c0e9e4b5a466bd867eea77938a96013c9fa818afeab920f9f1a2\";a:4:{s:10:\"expiration\";i:1580288776;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:105:\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\";s:5:\"login\";i:1580115976;}}'),
 (17,	1,	'wp_dashboard_quick_press_last_post_id',	'135'),
 (18,	1,	'community-events-location',	'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
 (19,	1,	'managenav-menuscolumnshidden',	'a:4:{i:0;s:11:\"link-target\";i:1;s:15:\"title-attribute\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";}'),
@@ -3779,4 +3779,4 @@ CREATE TABLE `wp_users` (
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1,	'user',	'$P$BD4XVDjz1bsvguz/PaC16HCJ8WUJCO0',	'user',	'lerok7792@bk.ru',	'',	'2020-01-14 13:30:54',	'',	0,	'user');
 
--- 2020-01-27 08:32:27
+-- 2020-01-27 09:09:48
